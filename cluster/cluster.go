@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lonng/nano/cluster/clusterpb"
-	"github.com/lonng/nano/internal/log"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/cluster/clusterpb"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/log"
 )
 
 // cluster represents a nano cluster, which contains a bunch of nano nodes

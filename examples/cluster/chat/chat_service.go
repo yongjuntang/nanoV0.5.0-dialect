@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/lonng/nano"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/examples/cluster/protocol"
-	"github.com/lonng/nano/session"
 	"github.com/pingcap/errors"
+	"github.com/yongjuntang/nanoV0.5.0-dialect"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/component"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/examples/cluster/protocol"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/session"
 )
 
 type RoomService struct {

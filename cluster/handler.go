@@ -33,16 +33,16 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/lonng/nano/cluster/clusterpb"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/internal/codec"
-	"github.com/lonng/nano/internal/env"
-	"github.com/lonng/nano/internal/log"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/internal/packet"
-	"github.com/lonng/nano/pipeline"
-	"github.com/lonng/nano/scheduler"
-	"github.com/lonng/nano/session"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/cluster/clusterpb"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/component"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/codec"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/env"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/log"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/message"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/packet"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/pipeline"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/scheduler"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/session"
 )
 
 var (

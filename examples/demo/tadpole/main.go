@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/lonng/nano"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/examples/demo/tadpole/logic"
-	"github.com/lonng/nano/serialize/json"
 	"github.com/urfave/cli"
+	"github.com/yongjuntang/nanoV0.5.0-dialect"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/component"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/examples/demo/tadpole/logic"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/serialize/json"
 )
 
 func main() {

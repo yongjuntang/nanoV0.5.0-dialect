@@ -1,8 +1,8 @@
 package master
 
 import (
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/session"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/component"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/session"
 )
 
 var (

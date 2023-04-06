@@ -25,10 +25,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/lonng/nano/internal/env"
-	"github.com/lonng/nano/internal/log"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/session"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/env"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/log"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/message"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/session"
 )
 
 const (

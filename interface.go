@@ -30,12 +30,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lonng/nano/cluster"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/internal/env"
-	"github.com/lonng/nano/internal/log"
-	"github.com/lonng/nano/internal/runtime"
-	"github.com/lonng/nano/scheduler"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/cluster"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/component"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/env"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/log"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/runtime"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/scheduler"
 )
 
 var running int32

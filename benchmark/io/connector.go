@@ -26,9 +26,9 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/lonng/nano/internal/codec"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/internal/packet"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/codec"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/message"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/packet"
 )
 
 var (

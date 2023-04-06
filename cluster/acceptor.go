@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	"github.com/lonng/nano/cluster/clusterpb"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/mock"
-	"github.com/lonng/nano/session"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/cluster/clusterpb"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/internal/message"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/mock"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/session"
 )
 
 type acceptor struct {

@@ -7,14 +7,14 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/lonng/nano"
-	"github.com/lonng/nano/examples/cluster/chat"
-	"github.com/lonng/nano/examples/cluster/gate"
-	"github.com/lonng/nano/examples/cluster/master"
-	"github.com/lonng/nano/serialize/json"
-	"github.com/lonng/nano/session"
 	"github.com/pingcap/errors"
 	"github.com/urfave/cli"
+	"github.com/yongjuntang/nanoV0.5.0-dialect"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/examples/cluster/chat"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/examples/cluster/gate"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/examples/cluster/master"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/serialize/json"
+	"github.com/yongjuntang/nanoV0.5.0-dialect/session"
 )
 
 func main() {

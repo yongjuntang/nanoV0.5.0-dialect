@@ -1,6 +1,6 @@
 package gate
 
-import "github.com/lonng/nano/component"
+import "github.com/yongjuntang/nanoV0.5.0-dialect/component"
 
 var (
 	// All services in master server
